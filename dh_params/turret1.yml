@@ -1,0 +1,7 @@
+# use key f: for initial fixed transform and e: for final fixed transform
+# for joints, just use joint number as 1: 2: etc.
+notation: [r, theta, a, alpha]
+joint:
+    1: [0.5, q1, 0, pi/2]
+    2: [0, q2, 0, -pi/2]
+    3: [q3+0.1, 0, 0, 0]
